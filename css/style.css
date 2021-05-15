@@ -1,0 +1,10 @@
+img{
+	position:relative;
+}
+
+body {
+  background-image: url(img/background_img.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}

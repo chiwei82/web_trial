@@ -7,22 +7,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/css/materialize.min.css">
+  
+  <link rel="stylesheet" href="css/style.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<style>
-		img{
-			position:relative;
-		}
-	</style>
+  <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/js/materialize.min.js"></script>
+            
 </head>
-
     <header style="text-align: center;">
 		this is the header 
 	</header>
 	<body>
-		<div class="container p-3 my-3 bg-primary text-white">
-				<img src="img/election_changhua_2020.svg">			
+		<div class="container">
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img src="img/election_changhua_2020.svg" height="500">
+				</div>
+				<div class="card-content" 
+				style=" background-image: url(img/background_img.jpg);">
+				<span class="card-title activator grey-text text-darken-4"><b>彰化縣2020總統大選藍綠兩黨相對選舉結果</b><i style="background-color:#5d4037;"class="waves-effect waves-light btn right">Tap me to see more!</i></span>
+					<a href="https://2020.cec.gov.tw/#gsc.tab=0" target="_blank"></a>
+				</div>
+				<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4"><span><img style="height:25px;" src="img/ultrafastparrot.gif"></span>製作過程:<i class="material-icons right">close</i></span>
+					<p>引入<span><a href="https://2020.cec.gov.tw/#gsc.tab=0" target="_blank">選舉委員會</a></span>所提供的資料，接著使用R studio 生成SVG圖檔 -> 進入 boxy svg 後製 -> 輸出</p>
+				</div>
+			</div>
 		</div>
 	</body>
 	<footer style="text-align: center;">
