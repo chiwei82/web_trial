@@ -24,18 +24,53 @@
 		<div class="container">
 			<div class="card">
 				<div class="card-image waves-effect waves-block waves-light">
-					<img src="img/election_changhua_2020.svg" height="500">
+						<img src="img/election_changhua_2020.svg" class ="responsive-img">			
 				</div>
-				<div class="card-content" 
-				style=" background-image: url(img/background_img.jpg);">
-				<span class="card-title activator grey-text text-darken-4"><b>彰化縣2020總統大選藍綠兩黨相對選舉結果</b><i style="background-color:#5d4037;"class="waves-effect waves-light btn right">Tap me to see more!</i></span>
-					<a class="btn-floating btn-medium pulse"><i class="material-icons" style="font-size:10px">cloud</i></a>
+				<div class="card-content" style=" background-image: url(img/background_img.jpg);">
+					<div class="row">
+						<div class="col s8 m6 l9">
+							<b>
+								<h5>彰化縣<br> 2020總統大選<br>
+									<h6>藍綠兩黨相對選舉結果</h6>
+								</h5>
+							</b>
+						</div>
+						<div class="col s4 m6 l3">
+							<a class="btn-floating btn-large pulse right">
+								<img src="img/omg.jpg" style="border-radius:50%; width:46px;margin-top:5px; margin-left:5px;" class="card-title activator"> 
+							</a>
+						</div>
+					</div>	
 				</div>
-				<div class="card-reveal">
-				<span class="card-title grey-text text-darken-4"><span><img style="height:25px;" src="img/ultrafastparrot.gif"></span>製作過程:<i class="material-icons right">close</i></span>
-					<p>引入<span><a href="https://2020.cec.gov.tw/#gsc.tab=0" target="_blank">選舉委員會</a></span>所提供的資料，接著使用R studio 生成SVG圖檔 -> 進入 boxy svg 後製 -> 輸出!</p>
+				<div class="card-reveal" id="card-reveal">
+					<span class="card-title grey-text text-darken-4"><span>
+						<img style="height:25px;" src="img/ultrafastparrot.gif">
+					</span>製作過程:<i class="material-icons right">close</i></span>
+						<p>引入
+						<span>
+								<a href="https://2020.cec.gov.tw/#gsc.tab=0" target="_blank">選舉委員會</a>
+							</span>所提供的資料，接著使用R studio 生成SVG圖檔 -> 進入 boxy svg 後製 -> 輸出!
+						</p>
+					<div>
+						<input name="opinion" type="text" placeholder="opinion">
+					</div>
+					<div>
+						<input name="opinion type" list="opinion type" placeholder="opinion type">
+						<datalist id="opinion type">
+							<option value="complain 🤔">
+							<option value="just for fun 🤗">
+							<option value="do not go into heart 😝">
+							<option value="the 4th opinion type 4️⃣">
+							<option value="the 5th opinion type 5️⃣">
+						</datalist>
+					</div>
+					<div>
+						<div style="text-align: center;">
+							<code class="w3-codespan">恭喜你發現這張卡片的內容!</code>
+						</div>
+						<img src ="https://i.gifer.com/7E2b.gif" class="responsive-img center">	
+				    </div>
 				</div>
-			</div>
 		</div>		
 	</body>
 	<footer style="text-align: center;">

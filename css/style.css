@@ -2,9 +2,21 @@ img{
 	position:relative;
 }
 
+/*
 body {
   background-image: url(img/background_img.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
+}
+*/
+
+.w3-codespan {
+  font-size: 105%;
+  background-color: rgba(222,222,222,0.3);
+}
+
+.center{
+  display:block; 
+  margin: auto;
 }
