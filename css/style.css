@@ -2,15 +2,6 @@ img{
 	position:relative;
 }
 
-/*
-body {
-  background-image: url(img/background_img.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
-*/
-
 .w3-codespan {
   font-size: 105%;
   background-color: rgba(222,222,222,0.3);
@@ -19,4 +10,51 @@ body {
 .center{
   display:block; 
   margin: auto;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.round_img{
+  border-radius:50%;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.nav-wrapper {
+  background-color: black !important;
+}
+
+body{
+  background-color: blanchedalmond;
+  background-image: url('https://mrmadtw.files.wordpress.com/2017/08/macos-big-sur-daylight-wallpaper-mrmad-7.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
