@@ -19,7 +19,7 @@
 <div>
 	<nav>
 		<div class="nav-wrapper">
-		  <a href="#" class="brand-logo" style="margin-left: 3px;">Logo</a>
+		  <a href="#" class="brand-logo" style="margin-left: 3px;">Plot_chunghua_election</a>
 		  <ul id="nav-mobile" class="right hide-on-med-and-down">
 			<li><a href="https://github.com/chiwei82" target="_blank">Github</a></li>
 		  </ul>
@@ -35,7 +35,7 @@
 				<div class="card-image waves-effect waves-block waves-light">
 						<img src="img/election_changhua_2020.svg" class ="responsive-img">			
 				</div>
-				<div class="card-content" style=" background-image: url(img/background_img.jpg);">
+				<div class="card-content" style=" background-color:#F0A13A">
 					<div class="row">
 						<div class="col s8 m6 l9">
 							<b>
@@ -60,30 +60,38 @@
 					</span>製作過程:<i class="material-icons right">close</i></span>
 						<p>引入
 						<span>
-								<a href="https://2020.cec.gov.tw/#gsc.tab=0" target="_blank">選舉委員會</a>
+								<a style="color: #D93710;" href="https://2020.cec.gov.tw/#gsc.tab=0" target="_blank">選舉委員會</a>
 							</span>所提供的資料，接著使用R studio 生成SVG圖檔 -> 進入 boxy svg 後製 -> 輸出!
 						</p>
-					<div>
-						<input name="opinion" type="text" placeholder="opinion">
-					</div>
-					<div>
-						<input name="opinion type" list="opinion type" placeholder="opinion type">
-						<datalist id="opinion type">
-							<option value="complain 🤔">
-							<option value="just for fun 🤗">
-							<option value="do not go into heart 😝">
-							<option value="the 4th opinion type 4️⃣">
-							<option value="the 5th opinion type 5️⃣">
-						</datalist>
-					</div>
-					<div>
-						<div style="text-align: center;">
-							<code class="w3-codespan">恭喜你發現這張卡片的內容!</code>
-						</div>
-						<div class="container">
-							<img src ="https://i.gifer.com/7E2b.gif" class="responsive-img">
-						</div>
+					<div class="row">
+						
 				    </div>
+					<div>
+						<form action="action_page.php">
+							<div class="container" >
+							  <h2> Subscribe Me </h2><h4> For more Information 📰</h4>	
+							  <p>訂閱我以獲得更多訊息</p>
+							</div>
+						  
+							<div class="container" style="background-color:white">
+							  <input type="text" placeholder="Name" name="name" required>
+							  <input type="text" placeholder="Email address" name="mail" required>
+							  <input name="opinion type" list="opinion type" placeholder="一個小調查!你為什麼想訂閱我呢">
+								<datalist id="opinion type">
+									<option value="想知道最新的UI/UX訊息!💻">
+									<option value="just for fun 🤗">
+									<option value="因為無聊 do not go into heart 😝">
+								</datalist>
+							  <label>
+								<input type="checkbox" checked="checked" name="subscribe"> UI/UX from student's view
+							  </label>
+							</div>
+						  
+							<div class="container">
+							  <input type="submit" value="Subscribe">
+							</div>
+						  </form>
+					</div>
 				</div>
 		</div>
 		<div class="row">
