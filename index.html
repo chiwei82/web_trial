@@ -2,13 +2,15 @@
 
 <html>
 <head>
-	<title> My page </title>
+	<title> 首頁 </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/css/materialize.min.css">
-  
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style_index_2.css">
+  <script type='text/javascript' src='js/script.js'></script>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -16,107 +18,158 @@
   <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/js/materialize.min.js"></script>
             
 </head>
+<nav style="background-color: #e1701a;">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo" style="color: white;"><i class="material-icons" style="font-size: 36px;">camera_alt</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="https://github.com/chiwei82" style="color: white;">Github</a></li>
+        <img src="img/github-brands.svg" style="height: 24px;">
+      </ul>
+    </div> 
+  </div> 
+</nav>
+
+<ul id="slide-out" class="sidenav">
+  <li>
+    <div class="user-view">
+      <div class="background">
+        <img src="img/profile_back_unsplash.jpg">
+      </div>
+      <a><img class="circle" src="img/omg.jpg"></a>
+      <a href="#name">
+        <span class="black-text name back_F2B138" style="display: inline-block;">Tonny Feng | s48157@gmail.com</span>
+      </a>
+    </div>
+  </li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+</ul>
+
+<a href="#" data-target="slide-out" class="sidenav-trigger btn" style="background-color: cadetblue;color: white;">About ME</a>
+  
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card blue-grey darken-1" style="border-radius: 1.5rem;">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action" style="border-radius: 1.5rem;">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="line"></div>
+
+  <div class="row">
+    <div class="col l6 s12">
+      <div id="card1" class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img/work1.JPG" style="border-radius: 1.5rem 1.5rem 0rem 0rem">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons right">unfold_more</i></a></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col l6 s12">
+      <div id="card2" class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work2.JPG">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons">unfold_more</i></a></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="row">
+    <div class="col l6 s12">
+      <div id="card3" class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work3.JPG">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons">unfold_more</i></a></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col l6 s12">
+      <div id="card4" class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work4.JPG">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons">unfold_more</i></a></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="col l6 s12">
+    <div id="card5" class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work5.JPG">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons">unfold_more</i></a></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
+        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
 <div>
-	<nav>
-		<div class="nav-wrapper">
-		  <a href="#" class="brand-logo" style="margin-left: 3px;">Plot_chunghua_election</a>
-		  <ul id="nav-mobile" class="right hide-on-med-and-down">
-			<li><a href="https://github.com/chiwei82" target="_blank">Github</a></li>
-		  </ul>
-		</div>
-	  </nav>
-</div>
-<div>	
-	<body>
-		<div class="row">
-		</div>	
-		<div class="container">
-			<div class="card">
-				<div class="card-image waves-effect waves-block waves-light">
-						<img src="img/election_changhua_2020.svg" class ="responsive-img">			
-				</div>
-				<div class="card-content" style=" background-color:#F0A13A">
-					<div class="row">
-						<div class="col s8 m6 l9">
-							<b>
-								<b>
-									<p style="font: size 20px;">彰化縣<br>
-										<p style="font: size 15px;">2020總統大選<br>
-											<p style="font: size 10px;">藍綠兩黨相對選舉結果
-									</p>
-								</b>
-							</b>
-						</div>
-						<div class="col s4 m6 l3">
-							<a class="btn-floating btn-large pulse right">
-								<img src="img/omg.jpg" style="border-radius:50%; width:46px;margin-top:5px; margin-left:5px;" class="card-title activator"> 
-							</a>
-						</div>
-					</div>	
-				</div>
-				<div class="card-reveal" id="card-reveal">
-					<span class="card-title grey-text text-darken-4"><span>
-						<img style="height:25px;" src="img/ultrafastparrot.gif">
-					</span>製作過程:<i class="material-icons right">close</i></span>
-						<p>引入
-						<span>
-								<a style="color: #D93710;" href="https://2020.cec.gov.tw/#gsc.tab=0" target="_blank">選舉委員會</a>
-							</span>所提供的資料，接著使用R studio 生成SVG圖檔 -> 進入 boxy svg 後製 -> 輸出!
-						</p>
-					<div class="row">
-						
-				    </div>
-					<div>
-						<form action="action_page.php">
-							<div class="container" >
-							  <h2> Subscribe Me </h2><h4> For more Information 📰</h4>	
-							  <p>訂閱我以獲得更多訊息</p>
-							</div>
-						  
-							<div class="container" style="background-color:white">
-							  <input type="text" placeholder="Name" name="name" required>
-							  <input type="text" placeholder="Email address" name="mail" required>
-							  <input name="opinion type" list="opinion type" placeholder="一個小調查!你為什麼想訂閱我呢">
-								<datalist id="opinion type">
-									<option value="想知道最新的UI/UX訊息!💻">
-									<option value="just for fun 🤗">
-									<option value="因為無聊 do not go into heart 😝">
-								</datalist>
-							  <label>
-								<input type="checkbox" checked="checked" name="subscribe"> UI/UX from student's view
-							  </label>
-							</div>
-						  
-							<div class="container">
-							  <input type="submit" value="Subscribe">
-							</div>
-						  </form>
-					</div>
-				</div>
-		</div>
-		<div class="row">
-		</div>		
-	</body>
-</div>
-	<footer class="page-footer" style="background-color: gray">
+  <footer class="page-footer" style="background-color: #aaaaaa">
 		<div class="row">
 			<div class="col l4 offset-l2 m6 s12">
 				<h5>Reference</h5>
 				<ul>
-					<li><a href="https://2020.cec.gov.tw/#gsc.tab=0" target="_blank">中央選舉委員會</a></li>
-					<li><a href="https://tpemartin.github.io/economic-data-visualization/zh-tw/" target="_blank">資料視覺化電子書</a></li>
+          <li><a href="https://materializecss.github.io/materialize/" target="_blank">Materlize</a></li>
+					<li><a href="https://colorhunt.co/palette/282061" target="_blank">Color Hunt</a></li>
 					<li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>	
-					<li><a href="https://materializecss.github.io/materialize/" target="_blank">Materlize</a></li>	
+					<li><a href="https://color.adobe.com/zh/create/color-wheel" target="_blank">Adobe Color Brewer</a></li>	
+          <li><a href="https://tpemartin.github.io/economic-data-visualization/zh-tw/" target="_blank">資料視覺化電子書</a></li>	
 			</div>					
 			<div class="col l4 offset-l2 hide-on-small-only">
 
 			</div>
 		</div>
-			<div class="footer-copyright" style="background-color: black !important;">
+			<div class="footer-copyright" style="background-color: #e1701a !important;">
 			  <div class="container" style="text-align: center;">
-			  © 2014 Copyright Text
-			  <a class="grey-text text-lighten-4 right" href="#!">Contact me! </a>
+			  © 2021 ChiWeiFeng
+			  <a class="grey-text text-lighten-4 right" href="#!">Contact me!<i class="material-icons right">email</i> </a>
 			  </div>
 			</div>
 	</footer>
-</html>
+</div>  
