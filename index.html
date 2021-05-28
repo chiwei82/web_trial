@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title> 首頁 </title>
+	<title> Bio </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -18,11 +18,14 @@
   <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/js/materialize.min.js"></script>
             
 </head>
+
+
+<!--nav-->
 <nav style="background-color: #e1701a;">
   <div class="container">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo" style="color: white;"><i class="material-icons" style="font-size: 36px;">camera_alt</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <a href="#" class="left" style="color: white;"><i class="material-icons" style="font-size: 36px;">camera_alt</i></a>
+      <ul id="nav-mobile" class="right">
         <li><a href="https://github.com/chiwei82" style="color: white;">Github</a></li>
         <img src="img/github-brands.svg" style="height: 24px;">
       </ul>
@@ -30,10 +33,32 @@
   </div> 
 </nav>
 
+<!--carsouel-->
+<div class="row">
+  <div class="col-1 hide-on-small-only">
+    <a href="#" data-target="slide-out" class="sidenav-trigger btn" style="background-color: cadetblue;color: white;">Intro</a>
+  </div>
+  <div class="col-sm-10">
+    <div class="container">
+      <div class="card carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work1.JPG"></a>
+        <a class="carousel-item" href="#two!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work2.JPG"></a>
+        <a class="carousel-item" href="#three!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work3.JPG"></a>
+        <a class="carousel-item" href="#four!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work4.JPG"></a>
+        <a class="carousel-item" href="#five!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work5.JPG"></a>
+      </div>
+      <div class="divider"></div>
+    </div>
+  </div>  
+  <div class="col-sm-1">
+  </div>
+</div>  
+
+<!--slideout-->
 <ul id="slide-out" class="sidenav">
   <li>
     <div class="user-view">
-      <div class="background">
+      <div class="background" style="background-color: black;">
         <img src="img/profile_back_unsplash.jpg">
       </div>
       <a><img class="circle" src="img/omg.jpg"></a>
@@ -42,34 +67,33 @@
       </a>
     </div>
   </li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
+    <li><a href="#!"><i class="material-icons">portrait</i> 馮紀維 </a></li>
+    <li><a href="https://new.ntpu.edu.tw/students" target="_blank"><i class="material-icons">looks_one</i> 國立台北大學</a></li>
+    <li><a href="#!"><i class="material-icons">looks_two</i> Twitch Streamer </a></li>
     <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li><a class="subheader">Link Jumper</a></li>
+    <li><a class="waves-effect btn" href="https://chiwei.carrd.co/" target="_blank">carrd.co</a></li>
 </ul>
 
-<a href="#" data-target="slide-out" class="sidenav-trigger btn" style="background-color: cadetblue;color: white;">About ME</a>
-  
+<!--biocard-->
 <div class="container">
   <div class="row">
     <div class="col s12 m6">
-      <div class="card blue-grey darken-1" style="border-radius: 1.5rem;">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+      <div class="card " style="border-radius: 1.5rem;">
+        <div class="card-content balck-text">
+          <span class="card-title">My Way of photography</span>
+          <p> #canonphotography #canon #canoneos77d #photography #landscapephotography #landscape #taiwan #shadow </p>
         </div>
         <div class="card-action" style="border-radius: 1.5rem;">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
+          <a href="https://www.instagram.com/alcabrd.acnh/" target="_blank"> 📷 </a>
         </div>
       </div>
     </div>
   </div>
 
-<div class="line"></div>
+<div class="divider"></div>
 
+<!--card1-->
   <div class="row">
     <div class="col l6 s12">
       <div id="card1" class="card">
@@ -77,30 +101,32 @@
           <img class="activator" src="img/work1.JPG" style="border-radius: 1.5rem 1.5rem 0rem 0rem">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons right">unfold_more</i></a></span>
+          <span class="card-title activator grey-text text-darken-4">🐈<a class="activator right"><i class="material-icons right">unfold_more</i></a></span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          <span class="card-title grey-text text-darken-4">春天有腳<i class="material-icons right">unfold_less</i></span>
+          <p>春天只需要 🎵 ㄧ壺酒就夠了</p>
         </div>
       </div>
     </div>
+    <!--card2-->
     <div class="col l6 s12">
       <div id="card2" class="card">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work2.JPG">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons">unfold_more</i></a></span>
+          <span class="card-title activator grey-text text-darken-4">⛴<a class="activator right"><i class="material-icons">unfold_more</i></a></span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          <span class="card-title grey-text text-darken-4">春天有角(?)<i class="material-icons right">unfold_less</i></span>
+          <p>下雨天，被雨天糊弄 🌨</p>
         </div>
       </div>
     </div>
   </div>  
   
+  <!--card3-->
   <div class="row">
     <div class="col l6 s12">
       <div id="card3" class="card">
@@ -108,47 +134,59 @@
           <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work3.JPG">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons">unfold_more</i></a></span>
+          <span class="card-title activator grey-text text-darken-4">🌊<a class="activator right"><i class="material-icons">unfold_more</i></a></span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          <span class="card-title grey-text text-darken-4">春天有繳?<i class="material-icons right">unfold_less</i></span>
+          <p>每天只需要 做ㄧ件事就夠了 🚩</p>
         </div>
       </div>
     </div>
+    <!--card4-->
     <div class="col l6 s12">
       <div id="card4" class="card">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work4.JPG">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons">unfold_more</i></a></span>
+          <span class="card-title activator grey-text text-darken-4">🦜<a class="activator right"><i class="material-icons">unfold_more</i></a></span>
         </div>
         <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          <span class="card-title grey-text text-darken-4">春天有餃???<i class="material-icons right">unfold_less</i></span>
+          <p>講些有趣的玩笑 🥤</p>
         </div>
       </div>
     </div>
   </div> 
 
+  <!--card5-->
   <div class="col l6 s12">
     <div id="card5" class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work5.JPG">
       </div>
       <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4"><a class="activator right"><i class="material-icons">unfold_more</i></a></span>
+        <span class="card-title activator grey-text text-darken-4">⛰<a class="activator right"><i class="material-icons">unfold_more</i></a></span>
       </div>
       <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">unfold_less</i></span>
-        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <span class="card-title grey-text text-darken-4">春天有腳<i class="material-icons right">unfold_less</i></span>
+        <p>🎶
+          忘了春天有腳
+          才抬腳尋找
+          沒想到睡著
+          只是一瞬間
+          忘了春天有腳
+          才抬腳緊靠
+          沒想到睡著
+          又是ㄧ瞬間
+          🎶 </p>
       </div>
     </div>
   </div>
   
 </div>
 
+<!--footer-->
 <div>
   <footer class="page-footer" style="background-color: #aaaaaa">
 		<div class="row">
@@ -168,7 +206,7 @@
 			<div class="footer-copyright" style="background-color: #e1701a !important;">
 			  <div class="container" style="text-align: center;">
 			  © 2021 ChiWeiFeng
-			  <a class="grey-text text-lighten-4 right" href="#!">Contact me!<i class="material-icons right">email</i> </a>
+			  <a class="grey-text text-lighten-4 right" href="mailto:s481597@gmail.com" target="_blank">Contact me!<i class="material-icons right">email</i> </a>
 			  </div>
 			</div>
 	</footer>
