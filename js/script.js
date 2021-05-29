@@ -7,5 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances_carousel = M.Carousel.init(elems_carousel, {
       fullWidth: true,
       indicators: true,
-  });
+    });
+    var elems_floatbtn = document.querySelectorAll('.fixed-action-btn');
+    var instances_floatbtn = M.FloatingActionButton.init(elems_floatbtn, {
+      // specify options here
+    });
 });

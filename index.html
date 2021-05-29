@@ -2,11 +2,12 @@
 
 <html>
 <head>
-	<title> Bio </title>
+	<title> 公共經濟學期末報告 - 網頁形式 </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style_index_2.css">
@@ -15,45 +16,105 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/js/materialize.min.js"></script>
-            
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>          
 </head>
 
+<body>
+  <!--nav-->
+    <nav style="background-color: #D94625;">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a class="left" style="color: white;"><i class="material-icons" style="font-size: 36px;">bookmark</i></a>
+          <ul id="nav-mobile" class="right">
+            <li><a href="https://github.com/chiwei82" target="_blank" style="color: white;">Github</a></li>
+            <img src="img/github-brands.svg" style="height: 24px;">
+          </ul>
+        </div> 
+      </div> 
+    </nav>
 
-<!--nav-->
-<nav style="background-color: #e1701a;">
-  <div class="container">
-    <div class="nav-wrapper">
-      <a href="#" class="left" style="color: white;"><i class="material-icons" style="font-size: 36px;">camera_alt</i></a>
-      <ul id="nav-mobile" class="right">
-        <li><a href="https://github.com/chiwei82" style="color: white;">Github</a></li>
-        <img src="img/github-brands.svg" style="height: 24px;">
-      </ul>
-    </div> 
-  </div> 
-</nav>
+    <a href="#" data-target="slide-out" class="sidenav-trigger btn blue-grey" style="color: white;">Author</a>
+  <!--main1-->
+  <div class="row">
+      <div class="container" style="background-color: rgb(250,250,250);">
+        <h1 style="text-align: center;">🌱大麻合法化相關知識</h1>
+          <div class="divider"></div>
+        <img src="img/info.png" class="responsive-img center">
+          <div class="divider"></div>
+        <img src="img/info2.png" class="responsive-img center">
+          
+        <div class="divider"></div>
+        
+        <form action="action_page.php">
+          <div class="container" style="padding: 20px; background-color: #f1f1f1;">
+            <h2>意見回饋!</h2>
+            <p>希望看完這個網頁後，能夠幫助你更了解大麻相關的知識。
+              <br>
+              如果有甚麼建議的話歡迎填寫以下表單讓我知道!
+            </p>
+          </div>
+        
+          <div class="container" style="padding: 20px; background-color:white" >
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            <input type="text" placeholder="opinion" name="opinion" required>
+            <label>
+              <input type="checkbox" checked="checked" name="subscribe"> 我同意這份意見只會被用在研究用途上!
+            </label>
+          </div>
+        
+          <div class="container" style="padding: 20px; background-color: #f1f1f1;">
+            <input type="submit" value="送出!">
+          </div>
+        </form> 
+        <div class="row">
 
-<!--carsouel-->
-<div class="row">
-  <div class="col-1 hide-on-small-only">
-    <a href="#" data-target="slide-out" class="sidenav-trigger btn" style="background-color: cadetblue;color: white;">Intro</a>
-  </div>
-  <div class="col-sm-10">
-    <div class="container">
-      <div class="card carousel carousel-slider">
-        <a class="carousel-item" href="#one!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work1.JPG"></a>
-        <a class="carousel-item" href="#two!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work2.JPG"></a>
-        <a class="carousel-item" href="#three!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work3.JPG"></a>
-        <a class="carousel-item" href="#four!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work4.JPG"></a>
-        <a class="carousel-item" href="#five!"><img class="img-responsive center-block" style ="width: 100%;" src="img/work5.JPG"></a>
+        </div>
       </div>
-      <div class="divider"></div>
-    </div>
-  </div>  
-  <div class="col-sm-1">
   </div>
-</div>  
 
+  <!--float btn-->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large" style="color: #5F9E8B;">
+      <i class="large material-icons">file_download</i>
+    </a>
+    <ul>
+      <li><a href="https://drive.google.com/file/d/17sRoYfA6JK65yHRkyf-tndOoNL7Yy7zb/view?usp=sharing" target="_blank" class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+
+  <!--footer-->
+    <div>
+      <footer class="page-footer" style="background-color: #BF9C8F">
+        <div class="row">
+          <div class="col offset-l2">
+            <h5>Reference</h5>
+            <ul>
+              <li><a href="https://materializecss.github.io/materialize/" target="_blank">Materlize</a></li>
+              <li><a href="https://colorhunt.co/palette/282061" target="_blank">Color Hunt</a></li>
+              <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>	
+              <li><a href="https://color.adobe.com/zh/create/color-wheel" target="_blank">Adobe Color Brewer</a></li>	
+              <li><a href="https://tpemartin.github.io/economic-data-visualization/zh-tw/" target="_blank">資料視覺化電子書</a></li>	
+          </div>					
+          <div class="col">
+
+          </div>
+        </div>
+          <div class="footer-copyright" style="background-color: #D94625 !important;">
+            <div class="container" style="text-align: center;">
+            © 2021 ChiWeiFeng
+            <a class="grey-text text-lighten-4 right" href="mailto:s481597@gmail.com" target="_blank">Contact me!<i class="material-icons right">email</i> </a>
+            </div>
+          </div>
+      </footer>
+    </div>
+</body>
+ 
 <!--slideout-->
 <ul id="slide-out" class="sidenav">
   <li>
@@ -63,7 +124,7 @@
       </div>
       <a><img class="circle" src="img/omg.jpg"></a>
       <a href="#name">
-        <span class="black-text name back_F2B138" style="display: inline-block;">Tonny Feng | s48157@gmail.com</span>
+        <span class="black-text name" style="display: inline-block;background-color: #F2B138;padding-left: 6px;padding-right: 6px;">Tonny Feng | s48157@gmail.com</span>
       </a>
     </div>
   </li>
@@ -74,140 +135,4 @@
     <li><a class="subheader">Link Jumper</a></li>
     <li><a class="waves-effect btn" href="https://chiwei.carrd.co/" target="_blank">carrd.co</a></li>
 </ul>
-
-<!--biocard-->
-<div class="container">
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card " style="border-radius: 1.5rem;">
-        <div class="card-content balck-text">
-          <span class="card-title">My Way of photography</span>
-          <p> #canonphotography #canon #canoneos77d #photography #landscapephotography #landscape #taiwan #shadow </p>
-        </div>
-        <div class="card-action" style="border-radius: 1.5rem;">
-          <a href="https://www.instagram.com/alcabrd.acnh/" target="_blank"> 📷 </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div class="divider"></div>
-
-<!--card1-->
-  <div class="row">
-    <div class="col l6 s12">
-      <div id="card1" class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/work1.JPG" style="border-radius: 1.5rem 1.5rem 0rem 0rem">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">🐈<a class="activator right"><i class="material-icons right">unfold_more</i></a></span>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">春天有腳<i class="material-icons right">unfold_less</i></span>
-          <p>春天只需要 🎵 ㄧ壺酒就夠了</p>
-        </div>
-      </div>
-    </div>
-    <!--card2-->
-    <div class="col l6 s12">
-      <div id="card2" class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work2.JPG">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">⛴<a class="activator right"><i class="material-icons">unfold_more</i></a></span>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">春天有角(?)<i class="material-icons right">unfold_less</i></span>
-          <p>下雨天，被雨天糊弄 🌨</p>
-        </div>
-      </div>
-    </div>
-  </div>  
-  
-  <!--card3-->
-  <div class="row">
-    <div class="col l6 s12">
-      <div id="card3" class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work3.JPG">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">🌊<a class="activator right"><i class="material-icons">unfold_more</i></a></span>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">春天有繳?<i class="material-icons right">unfold_less</i></span>
-          <p>每天只需要 做ㄧ件事就夠了 🚩</p>
-        </div>
-      </div>
-    </div>
-    <!--card4-->
-    <div class="col l6 s12">
-      <div id="card4" class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work4.JPG">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">🦜<a class="activator right"><i class="material-icons">unfold_more</i></a></span>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">春天有餃???<i class="material-icons right">unfold_less</i></span>
-          <p>講些有趣的玩笑 🥤</p>
-        </div>
-      </div>
-    </div>
-  </div> 
-
-  <!--card5-->
-  <div class="col l6 s12">
-    <div id="card5" class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" style="border-radius: 1.5rem 1.5rem 0rem 0rem" src="img/work5.JPG">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">⛰<a class="activator right"><i class="material-icons">unfold_more</i></a></span>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">春天有腳<i class="material-icons right">unfold_less</i></span>
-        <p>🎶
-          忘了春天有腳
-          才抬腳尋找
-          沒想到睡著
-          只是一瞬間
-          忘了春天有腳
-          才抬腳緊靠
-          沒想到睡著
-          又是ㄧ瞬間
-          🎶 </p>
-      </div>
-    </div>
-  </div>
-  
-</div>
-
-<!--footer-->
-<div>
-  <footer class="page-footer" style="background-color: #aaaaaa">
-		<div class="row">
-			<div class="col l4 offset-l2 m6 s12">
-				<h5>Reference</h5>
-				<ul>
-          <li><a href="https://materializecss.github.io/materialize/" target="_blank">Materlize</a></li>
-					<li><a href="https://colorhunt.co/palette/282061" target="_blank">Color Hunt</a></li>
-					<li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>	
-					<li><a href="https://color.adobe.com/zh/create/color-wheel" target="_blank">Adobe Color Brewer</a></li>	
-          <li><a href="https://tpemartin.github.io/economic-data-visualization/zh-tw/" target="_blank">資料視覺化電子書</a></li>	
-			</div>					
-			<div class="col l4 offset-l2 hide-on-small-only">
-
-			</div>
-		</div>
-			<div class="footer-copyright" style="background-color: #e1701a !important;">
-			  <div class="container" style="text-align: center;">
-			  © 2021 ChiWeiFeng
-			  <a class="grey-text text-lighten-4 right" href="mailto:s481597@gmail.com" target="_blank">Contact me!<i class="material-icons right">email</i> </a>
-			  </div>
-			</div>
-	</footer>
-</div>  
+ 
